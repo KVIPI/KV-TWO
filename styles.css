@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {background-color: rgb(207, 205, 205);
+ color: black;
+
+ font-size: 16px;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+ color: black;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;   
+}
+
+a:active {
+ color: blue;   
+}
+
+a:visited {
+ color: gray;   
+}
+
+.avatar {
+ width: 200px ;
+ border-radius: 50px;
+ box-shadow: 4px 4px 4px 4px rgba(32, 32, 32, 0.795);
+
+}
+
+.info {
+ display: flex;  
+ margin-bottom: 20px;
+}
+
+@media (max-width:700px) {
+ .info {
+ text-align: center;    
+ display: block;
+ }
+}
+
+
+.info-text {
+margin-left: 40px;    
+}
+
+.info-text h4 {
+margin-bottom: 10px;    
+}
+
+.info p {
+ color: dimgray;
+ margin: 0;
+ font-style: italic;
+ /*font-weight: bold;*/
+ text-decoration: none;
+ /*text-transform: uppercase;*/
+ /* letter-spacing: 5px; */
+ /* расскомменить код ctrl+/ */
+ /* word-spacing: 45px; */
+
+}
+ /* box model */
+ /* . tab быстрое написание div */
+ /* div # быстрое написание id */
+
+.container {
+ max-width: 750px ;
+ margin: auto;
+ padding-top: 20px;
+}
+
+/* .social { 
+ background-color: rgb(0, 255, 0);
+ padding: 15px 20px 15px 30px;
+
+ margin: 5px;
+
+ border: 5px solid red;
+ border-bottom-style: dotted ;
+ border-top-width: 15px;
+ border-right-color:blue;
+
+} */
+
+/* .box-model > div {
+ float: left;
+ background: #000;;    
+ height: 200px;
+ border: 4px solid red;
+ width: 25%;
+ box-sizing: border-box;
+} */
+/* делать отступы ctrl+] */
+
+.bg-yellow {    
+ background: rgb(196, 196, 82);   
+}
+
+.bg-green {    
+ background: rgb(112, 199, 112); 
+}
+
+.bg-red {    
+ background: rgb(170, 31, 38);   
+}
+
+.card { 
+ padding: 15px 20px;
+ margin-bottom: 20px;
+ border-radius: 20px;    
+}
+
+.card h2 {
+ margin-bottom: 15px;    
+}
+
+.list { 
+ padding: 0 20px;   
+}
+
+.list li{
+ color: rgb(42, 96, 146);
+ margin-bottom: 10px;
+ /* border-bottom: solid grey;    */
+}  
+
+.table { 
+ width: 100%;   
+}
+
+.table td {
+ padding: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+ color: dimgrey;  
+
+}
+
+/* .table tr:nth-child(even) {
+ background-color: rgb(78, 70, 70);    
+} */
+
+.road {
+ text-decoration:underline;
+}
+
+.link-list {
+ list-style: none;
+ padding: 0;   
+}
+
+.link-list li{  
+ margin-bottom: 10px;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 15px;
+color: dimgrey;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+/* background: transparent;     */
+border-bottom: 1px solid #ccc;
+color: black;
+padding: 15px 0 10px;
+outline: none;
+/* убрать границы цвета */
+font-family: inherit;      
+/* наследование шрифта */
+}
+
+.row {  
+display: flex;
+margin-bottom: 20px;   
+}
+
+.row > .form-group{
+width: 50%;
+margin-right: 20px;
+}
+
+.row > .form-group :last-child {
+margin-right: 0;    
+}
+
+.btn {
+background-color: black;
+padding: 15px 20px;
+color: #ccc;
+border: none;
+font-family: inherit;
+cursor: pointer;
+}
+
+.btn:hover{
+opacity: 0.9;
+}
+/* Подсвечивает кнопку */
+
+/* Позиция для баннеров и рекламы  */
+.position {
+position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+position: fixed;
+right: 50px;
+bottom: 50px;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+background:lightcoral;    
+}
